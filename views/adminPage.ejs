@@ -1,0 +1,192 @@
+<%- include("./includes/head.ejs") %>
+<link rel="stylesheet" href="../../CSS/adminPage.css">
+<body>
+
+    <div id="masterConatiner">
+
+        <!-- error -->
+        <span class="<%= !alert ? "alerthide" : "alert"  %>"><%= alert  %></span>
+
+        <div class="formWrap">
+
+            <h2> create new question</h2>            
+
+            <form action="/newQuestion" method="POST">
+
+                <!-- add only one label and input asking for name and a submit  -->
+                <div class="questions_answers_conainers" id="questionWrap">
+
+                    <div class="inputWrap">
+                        <label for="questions">Questions</label>
+                        <input type="text" name="questions" class="questions">
+                    </div>                   
+
+                </div>
+
+                <div class="questions_answers_conainers" id="alternstiveWrap">
+
+                    <div class="inputWrap">
+                        <label for="alternstive">Alternative Question</label>
+                        <input type="text" name="alternative" class="alternstive">
+                    </div>                   
+
+                </div>
+
+                <div class="questions_answers_conainers" id="answersWrap">
+
+                    <div class="inputWrap">
+                        <label for="answers">Answers</label>
+                        <textarea name="answers" class="answers" cols="30" rows="5"></textarea>
+                    </div>                    
+
+                </div>                
+
+
+                <!-- permissions -->
+                <div class="inputWrap">
+                    <label for="permissions">Permissions</label>
+                    <select name="permissions" id="permissions">
+                        <option value="">Choose Option</option>
+                        <option value="brothers">Brothers</option>
+                        <option value="kids">Kids</option>
+                        <option value="wife">Wife</option>
+                        <option value="family">Family</option>
+                        <option value="all">All</option>
+                    </select>
+                </div>
+
+                <div class="inputWrap">
+                    <input class="submit_button" type="submit" value="Enter">
+                </div>
+
+            </form>
+
+            
+            <div id="buttons_wrap">
+                <!-- <button id="addQuestion">Add Question</button>
+                <button id="addAnswers">Add Answers</button> -->
+                <button id="addAlternstive">Add Alternstive</button>
+            </div>
+            
+
+        </div>
+
+        <!-- form new user -->
+
+        <div class="formWrap">
+
+            <h2> create new User</h2>
+
+            <form action="/createUser" method="POST">
+
+                <div class="inputWrap">
+                    <!-- add only one label and input asking for name and a submit  -->
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div class="inputWrap">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+
+                <div class="inputWrap">
+                    <!-- birthDay -->
+                    <label for="birthDate">Birth Date</label>
+                    <input type="date" name="birthDate" id="birthDate">
+                </div>
+
+                <div class="inputWrap">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+
+                <div class="inputWrap">
+                    <label for="verifyPassword">Verify Password</label>
+                    <input type="verifyPassword" name="verifyPassword" id="verifyPassword">
+                </div>
+
+                <div class="inputWrap">
+                    <!-- permissions -->
+                    <label for="permissions">Permissions</label>
+                    <select name="permissions" id="permissions_">
+                        <option value="">Choose Option</option>
+                        <option value="brothers">Brothers</option>
+                        <option value="kids">Kids</option>
+                        <option value="wife">Wife</option>
+                        <option value="family">Family</option>
+                        <option value="all">All</option>
+                    </select>
+                </div>
+
+                <div class="inputWrap">
+                    <input class="submit_button" type="submit" value="Enter">
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <script>
+
+        // // create questions clone mold
+        // const questionsMold = (id) => {
+        //     return `
+        //         <div class="inputWrap">
+        //             <label for="questions">Questions</label>
+        //             <input type="text" name="questions" class="questions">
+        //         </div>
+        //     `
+        // };
+
+        // // create answers clone mold
+        // const answersMold = (id) => {
+        //     return `
+        //         <div class="inputWrap">
+        //             <label for="answers">Answers</label>
+        //             <textarea name="answers" class="answers" cols="30" rows="5"></textarea>
+        //         </div>
+        //     `
+        // };
+
+        // // create alternstive clone mold
+            const alternstiveMold = (id) => {
+                return `
+                    <div class="inputWrap">
+                        <label for="alternstive">Alternative</label>
+                        <input type="text" name="alternative" class="alternstive">
+                    </div>
+                `
+            };
+
+        // // add questions
+        // document.getElementById('addQuestion').addEventListener('click', () => {
+        //     const questionsWrap = document.getElementById('questionWrap');
+        //     const questions = questionsWrap.querySelectorAll('.questions');
+        //     const questionsId = questions.length;
+        //     questionsWrap.insertAdjacentHTML('beforeend', questionsMold(questionsId));
+        // });
+
+        // // add answers
+        // document.getElementById('addAnswers').addEventListener('click', () => {
+        //     const answersWrap = document.getElementById('answersWrap');
+        //     const answers = answersWrap.querySelectorAll('.answers');
+        //     const answersId = answers.length;
+        //     answersWrap.insertAdjacentHTML('beforeend', answersMold(answersId));
+        // });
+
+        // add alternstive
+        document.getElementById('addAlternstive').addEventListener('click', () => {
+            const alternstiveWrap = document.getElementById('alternstiveWrap');
+            const alternstive = alternstiveWrap.querySelectorAll('.alternstive');
+            const alternstiveId = alternstive.length;
+            alternstiveWrap.insertAdjacentHTML('beforeend', alternstiveMold(alternstiveId));
+        });
+
+    </script>
+    
+</body>
+</html>

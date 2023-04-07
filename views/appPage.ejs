@@ -1,0 +1,32 @@
+<%- include("./includes/head.ejs") %>
+<link rel="stylesheet" href="../../CSS/appPage.css">
+
+<script>
+    let user = <%- JSON.stringify(user) %>;
+</script>
+<body>
+
+    <div id="masterConatiner">
+
+        <!-- create a chat form -->
+        <div id="chat_conatainer">
+
+                <div id="chat_Board"></div>
+
+                <div id="ChatApi">
+
+                    <input type="text" name="chat" id="chat">
+
+                    <button id="askButton">Ask</button>
+
+                </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="../../JS/chatAPI.js"></script>
+    
+</body>
+</html>

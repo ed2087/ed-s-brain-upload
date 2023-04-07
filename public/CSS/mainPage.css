@@ -1,0 +1,66 @@
+    #welcomeMessageH1{
+        font-size: 5vw;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+        .formWrap{
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+            .formWrap label{
+                color: #ffffff;
+                font-size: 1.5em;
+                margin-bottom: 1em;
+                text-align: left;
+                width: 100%;
+            }
+
+            .formWrap input{
+                width: 100%;
+                min-width: 400px;
+                border: solid 1px #ffffff;
+                background: transparent;
+                color: #ffffff;
+                font-size: 1.3rem;
+                padding: 20px 10px;
+                margin-bottom: 1em;
+            }
+            /* background on focus */
+            .formWrap input:focus{
+                background: rgba(255, 255, 255, 0.1);
+            }
+
+            #submit_button{
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.5rem;
+                padding: 10px 10px;
+            }
+                #submit_button:hover{
+                    opacity: 0.5;
+                }
+
+            /* placeholder */
+            .formWrap input::-webkit-input-placeholder {
+                color: rgba(255, 255, 255, 0.7);
+            }
+            .formWrap input:-moz-placeholder { /* Firefox 18- */
+                color: rgba(255, 255, 255, 0.7);
+            }
+            .formWrap input::-moz-placeholder {  /* Firefox 19+ */
+                color: rgba(255, 255, 255, 0.7);
+            }
+            .formWrap input:-ms-input-placeholder {  
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+
+

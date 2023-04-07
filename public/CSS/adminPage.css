@@ -1,0 +1,52 @@
+.formWrap{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+    .formWrap h2{
+        margin-bottom: 10px;
+        color: white;
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+
+    .formWrap .inputWrap{
+        display: flex;
+        flex-direction: column;
+    }
+        .inputWrap label{
+            margin-bottom: 5px;
+            margin-top: 5px;
+            color: white;
+        }
+        .inputWrap input, .inputWrap textarea, .inputWrap select{
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 50vw;
+        }
+            .inputWrap .submit_button{
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+    #buttons_wrap{
+        margin-top: 20px;
+    }
+        #addAlternstive{
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+        }

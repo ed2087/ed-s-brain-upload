@@ -1,0 +1,29 @@
+<%- include("./includes/head.ejs") %>
+<link rel="stylesheet" href="../../CSS/mainPage.css">
+
+<body>
+
+    <div id="masterConatiner">
+
+        <!-- <h1 id="welcomeMessageH1">Ed's Room</h1>         -->
+
+        <form class="formWrap" action="/appPage" method="POST">
+
+            <!-- error -->
+            <span class="<%= !alert ? "alerthide" : "alert"  %>"><%= alert  %></span>
+
+            <!-- add only one label and input asking for name and a submit  -->
+            <!-- <label for="name">What is your Name?</label> -->
+            <input required type="text" name="name" id="name" placeholder="Type Your first name...">
+
+            <!-- <label for="password">Password</label> -->
+            <input required type="password" name="password" id="password" placeholder="Password...">
+
+            <input id="submit_button" type="submit" value="Enter">
+
+        </form>       
+
+    </div>
+    
+</body>
+</html>

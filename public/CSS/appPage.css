@@ -1,0 +1,71 @@
+#chat_conatainer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+    #chat_Board{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        width: 60vw;
+        overflow-y: auto;
+        margin-bottom: 20px;
+        background: rgb(22 22 22);
+    }
+        .chat__question__text{
+            color: white;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+            .chat__question__text span{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background: red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 10px;
+            }
+
+                .addMargin{
+                    margin-left: 10px;
+                }
+
+    #ChatApi{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+        #ChatApi input{
+            width: 85%;
+            padding: 10px;
+            background: rgb(22 22 22);
+            margin-right: 10px;
+            color: white;
+            border: none;
+        }
+        /* background after focus */
+        #ChatApi input:focus{
+            background: rgb(22 22 22);
+        }
+
+        /* input after clicked */
+        #ChatApi input:active{
+            background: rgb(22 22 22);
+        }
+
+        #ChatApi button{
+            width: 15%;
+            padding: 10px;
+            border: none;
+            background: rgb(22 22 22);
+            color: white;
+            font-size: 1.2rem;
+        }

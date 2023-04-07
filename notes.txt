@@ -1,0 +1,929 @@
+add users
+daniel
+omar
+gabriel
+sandra
+jennifer
+caitlynn
+jazlynn
+edgar
+// add a guest
+guest
+
+
+
+***Do you believe in astrology?
+***Before making a phone call, do you rehearse what you’re going to say? 
+***Do you check your horoscope? 
+***where are you from?
+where did you grow up?
+Do you have any nicknames?
+What is your favorite color?
+What is your favorite food?
+What is your favorite movie?
+What is your favorite song?
+What is your favorite book?
+What is your favorite TV show?
+What is your favorite holiday?
+What is your favorite sport?
+What is your favorite animal?
+What is your favorite drink?
+What is your favorite ice cream flavor?
+What is your favorite restaurant?
+What is your favorite dessert?
+What is your favorite season?
+What is your favorite holiday?
+What is your favorite thing to do on a rainy day?
+What is your favorite thing to do on a sunny day?
+What is your favorite thing to do on a snowy day?
+What is your favorite thing to do on a windy day?
+What is your favorite thing to do on a hot day?
+What is your favorite thing to do on a cold day?
+What is your favorite thing to do on a windy day?
+Do you believe in aliens?
+Do you have any phobias? 
+Do you like designer brand clothes? 
+Is Starbucks worth the money? 
+Do you like Thai food? 
+Do you believe you should do one thing every day that scares you? 
+Do you have any secret talents?
+Have you ever broken the law?
+Have you ever broken a bone?
+Do you have your wisdom teeth?
+Do you believe in conspiracy theories?
+Have you ever had a lucid dream?
+Have you ever sung in front of a crowd?
+Are you afraid of heights?
+Have you ever fainted?
+Have you ever held a snake?
+Do you have any irrational fears?
+Are you claustrophobic?
+Have you ever had a near-death experience?
+Have you ever thrown up in public?
+Are you afraid of the dark?
+Do you like horror movies?
+Have you ever gotten lost in the wilderness?
+Have you ever had sleep paralysis?
+Do you use social media?
+Do you follow trends?
+Do you ever binge-watch Netflix? 
+Have you ever met a celebrity?
+Do you regularly watch sports?
+Are you “extra”?
+Have you ever been a vegan or vegetarian?
+Do you respond to texts quickly?
+Do you have a YouTube channel?
+Are you into nice cars?
+Have you ever been on TV?
+Have you ever skippers school?
+Have you ever cheated on a test?
+Do you procrastinate?
+Can you be peer pressured?
+Have you ever been fired from a job?
+Can you write in cursive?
+Were you a rebellious kid?
+Were your parents strict?
+Did you ever sneak out of your house when growing up?
+Have you ever been in a fight?
+Do you think picking up lines works?
+Have you ever kept a journal? 
+Do you have a best friend?
+Do you pay attention to the news?
+Have you ever gotten a speeding ticket? 
+Do you live alone?
+Is it possible to stay friends with an ex? 
+Are you into podcasts? 
+Do you like going to the movies?
+Do you use your phone first thing in the morning?
+Do you regularly watch TV? 
+Do you ever talk to yourself in your head?
+Do you sing in the shower?
+Have you ever had deja vu? 
+Do you like chocolate?
+Do you own bitcoin? 
+Do you like talking to strangers? 
+Would you like to be famous?
+Do you like pina coladas?
+Do you faint easily?
+Have you ever held a monkey?
+Are you afraid of snakes? 
+Do you call all dogs “puppies”?
+Have you ever worn underwear two days in a row?
+Do you ever talk to yourself?
+Do you talk to animals?
+Have you ever seen a UFO?
+Do you like chocolate milkshakes?
+Do you believe in Bigfoot?
+Do you know how to swim?
+Are you a good singer?
+Do you consider yourself a good dancer? 
+Can you speak any other languages?
+Did you believe in Santa as a kid? 
+Do you think PDA is annoying?
+Do you have any trophies or awards you’ve won? 
+Can you play chess?
+Have you traveled internationally?
+If you could become a robot partly, would you try it out?
+Do you like to wear hats?
+Do you believe in love at first sight? 
+Have you ever cut your hair?
+Were you a “cool kid” in high school?
+Do you know your personality type?
+How did you all meet? 
+What does each of you do for a living? 
+What is your favorite thing on the menu? 
+Where does each of you come from? 
+Who is the friendliest of this group? 
+Who is the most likely to protect everyone in a zombie apocalypse? 
+If you could only eat one food for the rest of your life, what would it be?
+Where is your happy place? 
+What’s your favorite thing to do to celebrate your birthday? 
+What’s your favorite board game? 
+What is your favorite thing about your hometown?
+What’s your idea of a perfect day? 
+What is your favorite topic to ask people about? 
+Why is pineapple on pizza so controversial?
+What would people call your superhero group?
+What is your favorite childhood memory?
+What is your favorite sports team? 
+Do you like social media? Why or why not? 
+What is the cringiest video you’ve seen lately? 
+At a party, where are you most likely to be found?
+What is the best concert you’ve ever been to?
+Who are some of your favorite actors or actresses?
+Who do you know that is most likely to be famous? 
+If you could go back to any time in history, what period would you choose?
+If you could live inside a movie or book, which would you choose?
+Do you hit the snooze button or wake up immediately? 
+What is one of your secret talents? 
+What’s your favorite corny joke?
+Have you ever waved at someone thinking you know them, only to realize they are the wrong person?
+What’s the best Wi-Fi network name you’ve seen? 
+What is a song you pretend you don’t like because it’s embarrassing that you love it? 
+What is something that everyone looks stupid doing?
+What’s your dumbest dance move? 
+Have you ever tried to look cool in front of someone and failed?
+What’s the strangest thing you’ve seen someone do in public? 
+When was the last time you had a big fail moment? 
+If you could live anywhere in the world but had to stay naked all the time, where would you choose?  
+What voice accent impersonations can you do (British, Australian, country, etc.)? 
+Have you ever tripped or fallen in front of a vast crowd?
+If you could have one useless superpower, what would it be?
+Which sport would be funniest if it had mandatory alcohol?
+What’s the silliest way you’ve accidentally injured yourself?
+What’s the most awkward first date you’ve ever been on? 
+What’s your favorite white elephant gift?
+What is something trendy now that people will be embarrassed about in 5 years? 
+Where is the worst smelling place you’ve ever been? 
+What is the most useless talent you have? 
+If you got banned from the library, what would be the reason behind it?
+Do you think penguins have knees?
+Why is it called lipstick if it doesn’t stick your lips together?
+What would be the worst bio for a dating app? 
+Why is it called “taking a dump”? Shouldn’t it be called “leaving a dump?” 
+What is the most embarrassing thing you’ve ever said on a date? 
+How do you want to die? 
+If you could be any comedian or celebrity, who would you be? 
+What’s the craziest thing you’ve ever done on a night out? 
+What is the goofiest or weirdest thing you did as a kid? 
+What is the strangest purchase you’ve ever made? 
+What would people call the sitcom of our friendship?
+What is your most obnoxious laugh?
+What is the funniest nickname that somebody has given you?
+What’s a rule that you make everyone follow in your house?
+Is it weird for an adult to sleep with a stuffed animal?
+What was the last thing you searched on Google?
+If you could do karaoke with any famous person for a day, who would it be?
+What do you do when you pull up next to someone at a stoplight and see them jamming out to music? 
+Do you pick your nose?  
+What is the most ridiculous outfit you’ve ever worn? 
+What is the funniest Halloween costume you’ve ever seen? 
+If you had to change your name, what would you change it to?
+What would you do with 15 minutes of fame?
+What conspiracy theory do you think might be true?
+If you could charge a million dollars for a service, what would it be?
+What’s the most ridiculous lie someone has ever told you to your face?
+If you could make a TV show about your best friend’s life, what would you call it?
+Can you describe the craziest person you’ve ever met?
+Have you ever eaten food on the ground?
+What is your favorite slang?
+If you had to wear a swimsuit or a business suit for the rest of your life, which one would you choose?
+If you had to choose between your eyebrows or eyelashes, which would you keep?
+What is worse during a kiss? Sneezing or burping?
+Have you ever farted in a yoga class? 
+What’s the easiest way to make you laugh?
+Are you ticklish?
+If you publicly trip and fall, do you laugh it off or just keep walking? 
+Can you touch your nose with your tongue?
+Which fairy tales do you find the most outrageous?
+How would you describe your face if you could only use vegetables for reference?
+What one normal thing becomes weird if you do it more than once?
+What is the most awkward question someone has ever asked you?
+How many animal sounds can you make?
+What is the most annoying song you’ve ever heard?
+Who knows you best?
+Where do you see yourself in 10 years?
+What makes you feel unstoppable? 
+What is your biggest fear? 
+Who is the smartest person you know?
+What is your favorite family holiday tradition?
+What is the essential quality in a romantic relationship?
+How long was your longest committed relationship? 
+If you could go back and change one thing about your past, what would it be? 
+Which is more important – beauty, power, or money? 
+What’s your biggest fear?
+What makes you feel unstoppable?
+What is your biggest regret?
+Do you think people are mostly good or mostly evil? Why? 
+Where do you go when you need fresh inspiration?
+What’s your philosophy on life?
+Do you like diving into the deep end or easing your way into the water? (literally or figuratively)?
+What life-changing events have you experienced? 
+What’s one thing you would change about yourself? 
+Have you ever had a moment of deja vu? 
+What legacy do you want to leave on Earth once you’re gone? 
+What gives you hope? 
+Have you ever had your heart broken? 
+Have you ever broken someone’s heart? 
+What was your most embarrassing moment? 
+If you could time travel, would you go to the past or the future?
+What words of wisdom would you pass down to your younger self? 
+What’s your go-to guilty pleasure? 
+How do you show kindness to others?
+Have you heard of “love languages”? What is your main one?
+what Should i draw?
+What Should I Ask My Boyfriend?
+If you could play one song every time you walked into a room, what would it be?
+Why is sandwich meat round when bread is square?
+Who is the fifth person on your missed calls?
+If animals could talk, which species would be the nicest? 
+What’s your most hated form of transportation?
+Have you ever dreamed of going to another planet?
+Which superpower would you never want to have?
+What do you think about when you’re on the toilet?
+How do birds pee?
+Do you think someone could live forever?
+How many pairs of pants do you own?
+What is the highest number you’ve ever counted?
+Do you ever lower the music volume when you’re looking for an address? 
+What question do people ask you that you dislike?
+If a bald person works in a restaurant, do you think they still need to wear a hairnet?
+What is your favorite sleeping position?
+What have you forgotten today?
+Do you think you would be friends with a clone of yourself?
+When did time begin?
+Did you ever eat Play-Doh as a kid?
+What is the weirdest text message you’ve ever gotten?
+If you had a date with someone in this room right now, who would be the most uncomfortable person to go with?
+Do you think you’re a good kisser? 
+What’s your favorite body part?
+Do you have a secret hunch about how you will die?
+If you could wake up tomorrow with one physical change, what would it be? 
+When was the last time you sang to yourself?
+Is a hotdog a sandwich? 
+What part of a kid’s movie completely scarred you for life?
+What kind of secret society would you start?
+What is the weirdest smell you’ve ever smelled? 
+What is invisible but you wish people could see? 
+Which body part do you wish you could detach and why?
+What is the weirdest thing a guest has done at your house?
+What would it take to gross you out on a date completely? 
+If life were a video game, what would be your favorite cheat code?
+What’s the worst name for an amusement park?
+If police arrested you with no explanation, what would your friends and family assume you had done?
+If you were a mad scientist, what experiment would you run?
+If you could own any mythical creature (unicorn, phoenix, etc.), which one would you want?
+What you rather have, a dirty house or a dirty car? 
+How many times do you think you lie in a day?
+Have you ever tried to eat an ant or a worm?
+Who is your partner in crime?
+Would you talk to a random person in a movie theater?
+Which is creepier – walking up on someone unexpectedly behind or staring at them through binoculars?
+Do you check yourself out in the windows when you pass?
+How many times do you change clothes in a day?
+What music video can you watch over and over again without getting bored?
+What’s the weirdest thing you secretly do daily? 
+What’s worse – no hair or no teeth?
+What’s the most disgusting food you’ve ever eaten? 
+If someone looked through your internet search history, what would be the weirdest inquiry they’d find?
+What is your definition of success? 
+What is a relationship dealbreaker for you?
+How would you title this chapter of your life? 
+If you only had one month left to live, how would you spend it? 
+What is the best advice someone has ever given you? 
+What makes you feel alive?
+Do you typically follow your heart or your head?
+What are you most grateful for in your life? 
+Do you have a best friend?
+How do you overcome personal setbacks?
+Is it easy for you to accept help when you need it?
+Do you think dreams have hidden meanings? Why or why not?
+Do you believe in reincarnation?
+How do you define beauty?
+Do you think brains or looks are more attractive? 
+What do you think happens after death? 
+What is your most irrational fear?
+Do you believe in second chances?
+If you could snap your fingers and make the world a better place, what would you do?
+What you rather someone be honest and hurt your feelings or lie to protect them?
+How can someone lose your trust?
+What personality traits are you most proud of?
+If you could be any animal, what would you be and why?
+Do you eat or drink soup? 
+How many pairs of shoes do you own?
+What is the best gift you have ever received? 
+If you were a superhero, what powers would you want to have?
+What is your favorite animal? 
+What’s your favorite family recipe?
+Do you like rollercoasters?
+Who would play you in a movie about your life? 
+What song reminds you of high school?
+What is the weirdest thing you’ve ever eaten? 
+If you could meet up with any celebrity for coffee, who would you choose?  
+If you were the ruler of your own country, what would be the first law you’d put into place? 
+Have you ever eaten a bug? 
+How would you survive a zombie apocalypse?
+What’s your favorite ice cream topping? 
+What is your favorite holiday?
+If you could be any tree, what kind would you be and why?
+Do you have a favorite type of exercise?
+Would you instead cook at home or order in?
+Which phone app do you use the most?
+Have you ever disliked something and then changed your mind?
+What is your most prized possession?
+Have you ever had a celebrity crush? 
+Are you an organ donor on your driver’s license?
+Do you believe in ghosts? Why or why not? 
+Are you good at solving puzzles?
+Do you think you can be friends with your colleagues? 
+Do you sing in the shower?
+How many hours early do you show up at the airport before a flight? 
+If you had a yacht, what would you name it? 
+Can you say your ABCs backwards?
+Are you double jointed?
+Do you step on the cracks in the sidewalk or step over them? 
+Do you ever dance like nobody is watching?
+What is the first thing you do in the morning?
+What is the last thing you do at night? 
+What is the most unusual place you’ve ever slept in? 
+What would be the title of your memoir?
+If you had unlimited money to start a business, what would it be?
+If you had the opportunity to be immortal, would you take it?
+Which famous historical person would you want to spend the day with?
+What is your favorite article of clothing?
+Do you think good people can do bad things?
+Do you think bad people can do good things?
+What is the first step you take to achieve a goal?
+Have you ever been in a food fight?
+Do you like cheese or butter more?
+What rules do you mean to break?
+How many times a day do you brush your hair?
+Have you ever ridden a horse? Did you like it?
+How would you react if an alligator arrived at your door?
+What do you do when nobody is watching? 
+Do you count your missed calls?
+How often do you say “thank you” or “I’m sorry” in a day?
+Are you good at remembering things on the spot?
+What is your quirkiest hidden quality?
+Which outfit in your closet have you worn more than any other?
+When was the last time you screamed at somebody?
+What’s your favorite road trip you’ve ever taken?
+Do you own a pair of cowboy boots?
+If you could have eyes in the back of your head, would you?
+Have you ever forgotten your wallet while paying for something? 
+If you only had 5 minutes in a grocery store, what would you buy?
+If you got stranded on a desert island with only 3 items, what would they be?
+What is your current passion project? 
+Do you have any hobbies? 
+How do you like to spend your free time?
+What kind of music are you into? 
+Do you have any pets? 
+What’s your claim to fame?
+Who is one of your favorite celebrity role models?
+What is your dream job?
+How did you find out about [current place/event]?
+If you could travel anywhere in the world, where would you go?
+What skill would you like to master? 
+What do you like to learn about?
+What is your proudest accomplishment? 
+What is your astrological sign?
+What motivates you to work hard?
+If money were no object, how would you spend your time?
+Who is your favorite author?
+What is your biggest pet peeve?
+Where do you see yourself in five years?
+Do you collect anything?
+Do you see the glass as half-full or half-empty?
+What is your favorite movie of all time? 
+What was your favorite subject in school? 
+What is one thing you will never do again?
+Did you play any sports growing up?
+What is the weirdest hobby you’ve tried?
+What is your favorite ice cream flavor? 
+What is something you’ve always wanted to do but haven’t tried yet? 
+Do you enjoy your alone time?
+Would you consider yourself an introvert or an extrovert?
+What qualities do you look for in a friend?
+What’s your favorite way to spend time with your family?
+What is the most relaxing part of your day? 
+Do you have any siblings?
+Are you the youngest, middle, or oldest child? 
+What was your favorite age of childhood? 
+What is the best concert you’ve ever been to?
+What is your favorite way to unwind? 
+What causes are you passionate about?
+What are you most excited about right now?
+Have you ever had a surprise party?
+Which of your five senses would you say is the strongest?
+If you had a warning label, what would yours say?
+Are you related to anyone famous?
+Does your family have a “motto”?
+What is your mantra? 
+Do you believe in the power of manifestation?
+What is one thing you tried that you’ll never do again?
+What was your first job?
+What is the most exciting thing you can see out your kitchen window?
+What would your dream house look like? 
+What is the most spontaneous thing you’ve ever done?
+What is the most helpful thing you own?
+If your younger self could meet you as an adult, what would they be most impressed by?
+What is at the top of your bucket list?
+If you had one month to live, what would you do?
+Are you a cat or a dog person?
+What do you think is the most essential professional skill?
+What do you think is the most essential life skill?
+What job would you be terrible at?
+What was the worst job you ever had?
+Are you an early bird or a night owl?
+Do you like to read or listen to audiobooks?
+What do you look forward to every day?
+Do you have any daily or weekly rituals?
+Do you think self-care is important?
+If you could look into a crystal ball to see the future, would you want to do it?
+Where do you see yourself living when you retire?
+What’s the most beautiful place you’ve ever seen in person?
+Do you prefer a beach or mountain vacation?
+What is your favorite thing about your career?
+What is your favorite season?
+Where is your favorite coffee shop?
+What is one brand that you identify with?
+If you could start a charity, what would it be?
+What is the best part of your day?
+Do you like cities or rural areas better?
+If you could re-live any decade of your life, which one would you re-do?
+What has been the highlight of this past week?
+What has been the highlight of your year? 
+Have you read any intriguing books lately?
+What’s your current favorite TV show/movie? 
+Do you have any nicknames?
+What is your favorite place you’ve traveled to? 
+Where did you grow up?
+How long have you lived in [city]?
+What is your favorite food?
+What is your favorite sport? 
+Where is your favorite restaurant around here? 
+How do you take your coffee or tea?
+If you could be any type of dog, what breed would you be and why?
+What is something you’ve always wanted to learn?
+What is your biggest regret? 
+If you could trade places with anyone for a week, who would it be?
+What fictional character do you most relate to?
+What do you daydream about? 
+What was your happiest moment in life?
+Is there anything you regret not doing in life?
+What was your proudest accomplishment?
+What was your biggest fear?
+What was your favorite childhood memory?
+Did you have any secret talents or hobbies?
+What was the best advice you ever received?
+What advice would you give to me now?
+Is there anything you wish you could have done differently?
+Who was the most influential person in your life?
+What was your favorite book or movie?
+What did you think was your purpose in life?
+What was your favorite place to travel to?
+What was your favorite food?
+What was your favorite song or artist?
+What was the most challenging experience you ever had?
+What was the most meaningful gift you ever received?
+What was the most important lesson you learned in life?
+Who was your best friend and what made them special?
+What was your proudest moment as a parent?
+Is there anything you wish you could have said to someone before you died?
+What was the greatest act of kindness you ever witnessed?
+What was your favorite holiday tradition?
+What was the most significant historical event you lived through?
+What was your favorite job or career?
+What was your favorite hobby or pastime?
+What was the happiest time in your marriage or relationship?
+What was the most difficult decision you ever had to make?
+What was the most inspiring thing you ever witnessed?
+What was the biggest mistake you ever made?
+What did you think was your biggest strength?
+What did you think was your biggest weakness?
+What was the most adventurous thing you ever did?
+What was the most romantic thing you ever did?
+What was the most important thing you learned from your parents?
+What was the most important thing you taught your children?
+What was your favorite memory with your siblings?
+What was your favorite memory with your grandparents?
+What was your favorite memory with your own children?
+What was your favorite memory with your spouse or partner?
+What was the most important thing you learned from a teacher or mentor?
+What was the most important thing you taught someone else?
+What was the most significant change you witnessed in the world during your lifetime?
+What was the biggest challenge you faced in your life?
+What was the most valuable lesson you learned from a mistake?
+What was the most valuable lesson you learned from a success?
+What was the most important goal you ever accomplished?
+What was the most important goal you wished you had accomplished?
+What was the most important quality in a friend to you?
+What was the most important quality in a romantic partner to you?
+What was the most important quality in a parent to you?
+What was the most important quality in a child to you?
+What was your favorite pet and why?
+What was the most significant event that happened on your birthday?
+What was your favorite subject in school?
+
+What was the most valuable lesson you learned from a failure?
+What was the most difficult obstacle you ever faced and how did you overcome it?
+What was the most important thing you ever did for someone else?
+What was the most significant moment in your life?
+What was your proudest moment as a grandparent?
+What was your favorite holiday and why?
+What was the most important thing you learned from a mistake in your career?
+What was the most valuable advice you ever received about money?
+What was the most important lesson you learned about love?
+What was your favorite childhood game or toy?
+What was your favorite childhood friend and what happened to them?
+What was your favorite thing to do with your own parents?
+What was the most difficult lesson you ever had to learn?
+What was your favorite place to go when you needed to be alone?
+What was the most important thing you ever did for yourself?
+What was the most important thing you ever did for your community?
+What was your favorite job or volunteer work you ever did?
+What was your favorite joke or funny story to tell?
+What was your favorite thing to cook or bake?
+What was your favorite restaurant or meal to eat out?
+What was the most interesting place you ever visited?
+What was the most important thing you ever did for your health?
+What was the most important thing you ever did for your spirituality or faith?
+What was the most important thing you ever did for your mental health?
+What was the most important thing you ever did for your emotional well-being?
+What was your favorite season and why?
+What was your favorite childhood pet and what happened to them?
+What was the most meaningful thing someone ever did for you?
+What was your favorite way to spend a lazy day?
+What was your favorite way to celebrate a special occasion?
+What was your favorite book or author?
+What was your favorite type of music or musician?
+What was the most meaningful gift you ever gave someone?
+What was the most meaningful gift you ever received?
+What was your favorite place to shop?
+What was your favorite way to exercise or stay active?
+What was your favorite way to relax?
+What was your favorite way to learn something new?
+What was your favorite way to stay connected with family and friends?
+What was your favorite type of art or artist?
+What was your favorite type of movie or TV show?
+What was your favorite way to travel?
+What was your favorite thing to do on a rainy day?
+What was your favorite way to spend time with your spouse or partner?
+
+What was your favorite childhood memory?
+What was your favorite subject in school?
+What was your first job, and what did you learn from it?
+What was your proudest accomplishment in life?
+What was your biggest regret in life?
+What was the happiest moment in your life?
+What was your favorite hobby or pastime?
+What was your favorite sport or team?
+What was your favorite holiday tradition?
+What was your favorite thing to do with your siblings?
+What was the biggest lesson you learned from your parents?
+What was your favorite vacation destination?
+What was your favorite thing to do on a weekend?
+What was your favorite car or mode of transportation?
+What was your favorite TV show or movie when you were young?
+What was your favorite thing to do with your friends?
+What was your favorite type of food or cuisine?
+What was your favorite alcoholic or non-alcoholic drink?
+What was your favorite thing about your home?
+What was the most difficult decision you ever had to make?
+What was the most significant change you ever made in your life?
+What was your favorite thing about your spouse or partner?
+What was your favorite memory with your children?
+What was your favorite thing about being a grandparent?
+What was your favorite way to spend a summer day?
+What was your favorite way to spend a winter day?
+What was your favorite type of weather?
+What was your favorite thing to do in nature?
+What was your favorite type of animal?
+What was your favorite type of flower or plant?
+What was your favorite childhood toy or game?
+What was the biggest challenge you faced in your career?
+What was your favorite way to relax after a long day?
+What was your favorite type of music to dance to?
+What was your favorite type of music to listen to when you were sad?
+What was the most meaningful conversation you ever had with someone?
+What was the most important lesson you learned about friendship?
+What was the most important lesson you learned about forgiveness?
+What was the most important lesson you learned about perseverance?
+What was your favorite thing to do with your parents when you were young?
+
+What was your favorite way to spend a Sunday morning?
+What was the most important lesson you learned from a mentor?
+What was the most difficult challenge you ever faced in your personal life?
+What was your favorite way to spend a vacation?
+What was your favorite thing to do for fun as an adult?
+What was your favorite thing to do for fun as a child?
+What was your favorite holiday destination?
+What was your favorite season to decorate your home for?
+What was the most meaningful gift you ever received from someone?
+What was the most meaningful gift you ever gave to someone?
+What was the most significant event you ever witnessed in history?
+What was your favorite thing about the town or city you grew up in?
+What was your favorite family tradition?
+What was your favorite way to celebrate your birthday?
+What was the most difficult decision you ever made as a parent?
+What was your favorite way to give back to your community?
+What was your favorite thing to do when you were feeling down?
+What was your favorite way to express your creativity?
+What was your favorite way to learn something new?
+What was your favorite thing to do to stay healthy and active?
+What was the most important lesson you learned about family?
+What was the most important lesson you learned about loyalty?
+What was your favorite type of cuisine to cook?
+What was the most memorable adventure you ever went on?
+What was your favorite place to read?
+What was your favorite type of literature to read?
+What was your favorite thing to do on a weekend afternoon?
+What was your favorite type of dessert?
+What was your favorite way to spend time with your siblings?
+What was your favorite way to express your spirituality or faith?
+What was your favorite way to stay connected with friends and family who lived far away?
+What was the most important lesson you learned about communication?
+What was your favorite way to express love or appreciation to someone?
+What was the most difficult obstacle you overcame in your personal life?
+What was your favorite thing about your career or profession?
+
+What was your favorite way to spend a rainy day?
+What was your favorite childhood book?
+What was your favorite type of clothing or fashion trend?
+What was your favorite thing to do with your parents when you were a teenager?
+What was your favorite type of cuisine to try when traveling?
+What was your favorite thing to do to celebrate the New Year?
+What was your favorite type of music to listen to while driving?
+What was your favorite way to express yourself creatively?
+What was your favorite thing to do with your grandchildren?
+What was the most memorable birthday celebration you ever had?
+What was your favorite way to decorate your home for the holidays?
+What was your favorite type of outdoor activity?
+What was your favorite way to spend time with your spouse or partner?
+What was the most important lesson you learned about financial management?
+What was your favorite way to unwind after a stressful day?
+What was your favorite type of technology to use?
+What was your favorite way to stay informed about current events?
+What was your favorite way to spend time with your pets?
+What was your favorite type of fruit or vegetable?
+What was your favorite way to prepare a meal?
+What was your favorite type of game or puzzle?
+What was your favorite way to stay active and healthy as you aged?
+What was the most significant change you saw in the world during your lifetime?
+What was your favorite way to stay in touch with family and friends?
+What was the most important lesson you learned about forgiveness?
+
+What was your favorite thing to do with your siblings?
+What was the most memorable gift you ever received as a child?
+What was your favorite thing to do on a summer day?
+What was your favorite way to celebrate a milestone or achievement?
+What was your favorite type of flower?
+What was your favorite way to relax after a long day?
+What was the most important lesson you learned about love?
+What was your favorite thing to do during the winter months?
+What was the most meaningful volunteer work you ever did?
+What was your favorite way to stay active and engaged in your community?
+What was your favorite hobby or pastime?
+What was your favorite type of art or artist?
+What was your favorite way to express your personality?
+What was your favorite way to show appreciation for someone?
+What was the most meaningful vacation you ever took?
+What was your favorite way to spend time with your parents?
+What was your favorite type of book to read?
+What was your favorite way to spend a day off from work?
+What was your favorite type of candy or sweet treat?
+What was the most difficult loss you experienced in your life?
+What was your favorite thing to do during the autumn months?
+What was your favorite type of cuisine to order at a restaurant?
+What was your favorite way to give back to your community?
+What was your favorite way to stay informed about your favorite topics?
+What was your favorite way to spend time with your nieces or nephews?
+
+What was your favorite way to celebrate a holiday?
+What was your favorite type of weather?
+What was your favorite way to spend a lazy Sunday afternoon?
+What was your favorite type of coffee or tea?
+What was your favorite way to stay organized?
+What was your favorite type of home decor or furniture?
+What was your favorite way to spend a long weekend?
+What was your favorite type of sports or athletic activity?
+What was your favorite way to celebrate a special occasion?
+What was your favorite thing to do with your best friend?
+What was the most meaningful tradition you ever participated in?
+What was your favorite way to stay mentally sharp and alert?
+What was your favorite type of animal?
+What was your favorite way to explore new places?
+What was the most significant historical event you ever witnessed?
+What was your favorite way to stay active and healthy?
+What was your favorite thing to do with your spouse or partner on date night?
+What was your favorite type of car or vehicle?
+What was your favorite way to show kindness to others?
+What was your favorite thing to do with your grandchildren when they visited?
+What was your favorite way to stay entertained when you were stuck indoors?
+What was your favorite type of movie or television show?
+What was your favorite way to give back to your community?
+What was your favorite way to spend time in nature?
+What was your favorite type of restaurant or cuisine to try?
+
+What was your favorite way to stay connected with friends and family who lived far away?
+What was your favorite type of music to dance to?
+What was your favorite way to unwind after a busy day at work?
+What was your favorite thing to do with your parents when you were a child?
+What was your favorite type of dessert?
+What was your favorite way to celebrate your own birthday?
+What was your favorite type of clothing to wear when you were younger?
+What was your favorite way to stay informed about politics and world events?
+What was your favorite way to stay in touch with old friends?
+What was your favorite type of holiday or vacation destination?
+What was your favorite way to spend a weekend with your significant other?
+What was the most significant technological advancement you saw during your lifetime?
+What was your favorite way to spend time with your siblings?
+What was your favorite type of art or craft to create?
+What was your favorite way to relax and unwind before bed?
+What was your favorite way to show your appreciation for someone who helped you?
+What was your favorite type of game to play with your children or grandchildren?
+What was your favorite way to stay motivated and productive?
+What was your favorite type of book or author to read?
+What was your favorite way to celebrate the start of a new year?
+
+What was your favorite type of outdoor activity?
+What was your favorite way to spend time alone?
+What was your favorite way to spend time with your friends?
+What was your favorite way to celebrate a personal achievement?
+What was your favorite type of exercise to do?
+What was your favorite way to stay up to date with technology?
+What was your favorite type of cuisine to cook at home?
+What was your favorite way to get involved in your local community?
+What was your favorite way to make a difference in the world?
+What was your favorite type of houseplant or garden flower?
+What was your favorite way to show your love for your spouse or partner?
+What was your favorite way to show your love for your children or grandchildren?
+What was your favorite way to spend time with your extended family?
+What was your favorite type of weather to experience?
+What was your favorite way to stay informed about sports and athletic events?
+What was your favorite way to stay up to date with fashion trends?
+What was your favorite way to celebrate a friend's accomplishment?
+What was your favorite type of animal to observe in nature?
+What was your favorite way to spend a Saturday morning?
+What was your favorite type of charitable organization to support?
+What was your favorite way to volunteer your time and energy?
+What was your favorite way to stay positive and optimistic?
+What was your favorite way to stay in touch with old classmates or coworkers?
+What was your favorite type of cuisine to try at a new restaurant?
+What was your favorite way to show your gratitude to others?
+What was your favorite way to spend time with your pets?
+What was your favorite way to stay mentally and emotionally healthy?
+What was your favorite type of book to read for personal growth and development?
+What was your favorite way to spend a Sunday morning?
+What was your favorite way to celebrate an anniversary or special occasion?
+What was your favorite way to stay motivated and focused on your goals?
+What was your favorite type of coffee shop or cafe to visit?
+What was your favorite way to spend a rainy day?
+What was your favorite way to spend a snow day?
+What was your favorite type of museum or art gallery to visit?
+What was your favorite way to stay informed about science and technology?
+What was your favorite type of wine or cocktail to order?
+What was your favorite way to learn a new skill or hobby?
+What was your favorite type of art to create?
+What was your favorite way to show your support for a cause you believed in?
+What was your favorite type of flower arrangement to create or receive?
+What was your favorite way to stay organized and on top of your schedule?
+What was your favorite type of party or event to plan?
+What was your favorite way to stay connected with your family and loved ones?
+What was your favorite type of project to work on at home?
+What was your favorite way to decorate your home for the holidays?
+What was your favorite type of craft to make for special occasions?
+What was your favorite way to stay active and fit as you aged?
+What was your favorite way to stay informed about your finances and investments?
+What was your favorite way to spend time with your grandchildren?
+What was your favorite way to stay involved in your religious or spiritual community?
+What was your favorite
+
+What was your favorite way to unwind after a long day?
+What was your favorite way to enjoy the beauty of nature?
+What was your favorite type of live performance to attend?
+What was your favorite way to learn about different cultures?
+What was your favorite way to stay informed about politics and current events?
+What was your favorite type of charity event to attend?
+What was your favorite way to explore new places?
+What was your favorite way to stay connected with your childhood friends?
+What was your favorite way to stay informed about local news and events?
+What was your favorite type of musical instrument to play or listen to?
+What was your favorite way to spend a summer day?
+What was your favorite type of art to collect?
+What was your favorite way to spend time at the beach?
+What was your favorite way to give back to your community?
+What was your favorite type of sports team to support?
+What was your favorite way to enjoy the holiday season?
+What was your favorite type of music to listen to while driving?
+What was your favorite way to stay informed about health and wellness trends?
+What was your favorite way to celebrate a milestone birthday?
+What was your favorite type of musical genre to listen to?
+What was your favorite way to stay up to date with the latest technology?
+What was your favorite type of gift to receive from loved ones?
+What was your favorite way to spend a lazy Sunday afternoon?
+What was your favorite way to show your artistic talents?
+What was your favorite way to stay involved with your church or religious community?
+What was your favorite type of meal to cook for your family?
+What was your favorite way to celebrate the New Year?
+What was your favorite way to spend time with your siblings?
+What was your favorite type of coffee to drink in the morning?
+What was your favorite way to enjoy a glass of wine or champagne?
+What was your favorite type of dance to participate in?
+What was your favorite way to stay in touch with friends and family who lived far away?
+What was your favorite type of beach activity to participate in?
+What was your favorite way to stay active in retirement?
+What was your favorite way to stay informed about the latest fashion trends?
+What was your favorite way to spend a rainy day indoors?
+What was your favorite way to stay up to date with new technology?
+What was your favorite way to spend a romantic evening with your spouse or partner?
+What was your favorite type of cuisine to try at a new restaurant?
+What was your favorite way to spend time in the garden?
+What was your favorite type of outdoor activity to participate in?
+What was your favorite way to celebrate a special achievement or milestone?
+What was your favorite way to show your love and appreciation for your family?
+What was your favorite way to stay active in your local community?
+What was your favorite type of exercise to do with friends?
+What was your favorite way to spend time with your pets?
+What was your favorite way to stay organized and on top of your schedule?
+What was your favorite type of book to read for leisure?
+What was your favorite way to stay mentally and emotionally healthy?
+What was your favorite type of home decor to shop for?
+What was your favorite way to stay connected with your loved ones while traveling?
+
+What was your favorite way to spend a cozy evening at home?
+What was your favorite type of television show to watch?
+What was your favorite way to stay involved in local politics?
+What was your favorite type of outdoor activity to do with your children or grandchildren?
+What was your favorite way to spend a long weekend?
+What was your favorite type of craft to make or hobby to pursue?
+What was your favorite way to stay informed about the stock market and investing?
+What was your favorite type of family vacation to take?
+What was your favorite way to stay in touch with your high school or college friends?
+What was your favorite type of wine or liquor to enjoy with friends?
+What was your favorite way to spend a snowy day?
+What was your favorite type of museum to visit?
+What was your favorite way to explore new cultures while traveling?
+What was your favorite type of book to read for personal growth?
+What was your favorite way to stay involved with your children's or grandchildren's education?
+What was your favorite way to celebrate a holiday or special occasion?
+What was your favorite type of fashion accessory to wear?
+What was your favorite way to relax and recharge after a busy week?
+What was your favorite type of television program to watch with your family?
+What was your favorite way to stay informed about developments in science and technology?
+What was your favorite type of board game or card game to play with friends and family?
+What was your favorite way to keep in touch with old friends and colleagues?
+What was your favorite type of art exhibit to attend?
+What was your favorite way to volunteer in your local community?
+What was your favorite type of cuisine to cook at home?
+What was your favorite way to stay active and healthy in your senior years?
+What was your favorite type of music to listen to while exercising?
+What was your favorite way to celebrate a milestone wedding anniversary?
+What was your favorite type of foreign language to study or learn?
+What was your favorite way to spend time with your grandchildren?
+What was your favorite type of adventure to embark on?
+What was your favorite way to stay informed about social and political issues?
+What was your favorite type of souvenir to bring back from a trip?
+What was your favorite way to spend time with your pets?
+What was your favorite type of exercise to do alone?
+What was your favorite way to enjoy a sunny day?
+What was your favorite type of music to listen to while cooking?
+What was your favorite way to spend time in your backyard or garden?
+What was your favorite type of home improvement project to undertake?
+What was your favorite way to stay in touch with your extended family members?
+What was your favorite type of charity to donate to?
+What was your favorite way to learn new skills or pursue personal interests?
+What was your favorite type of foreign cuisine to try at a restaurant?
+What was your favorite way to spend a day off from work?
+What was your favorite type of fashion to wear?
+What was your favorite way to celebrate a personal achievement?
+What was your favorite type of television show to binge-watch?
+What was your favorite way to stay informed about environmental issues?
+What was your favorite type of music to listen to while relaxing?
+What was your favorite way to spend a summer vacation?
+
+
+QUESTIONS THAT MY KIDS MIGHT ASK ME
+
+tell me a story about your childhood
+tell me about your favorite childhood memory
