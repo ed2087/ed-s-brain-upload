@@ -13,20 +13,6 @@ const ConversationModel = require('../models/conversation_model.js');
 const {readJson, writeJson, findByIdAndUpdate} = require('../utils/readAndWriteJSon.js');
 
 
-//calculate current age from date of birth by using my birthday 11/20/1987
-const calculateAge = (date) => {
-    
-        const today = new Date();
-        const birthDate = new Date(date);
-        let age = today.getFullYear() - birthDate.getFullYear();
-        const m = today.getMonth() - birthDate.getMonth();
-        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-            age--;
-        }
-        return age;
-
-};
-
 //admin page
 const adminPage_url = `/admin?name=${process.env.ADMIN_NAME}&password=${process.env.ADMIN_PASSWORD}`;
 
@@ -139,6 +125,9 @@ exports.newQuestion = async (req, res, next) => {
 
     let {questions, alternative, answers, permissions} = req.body;
 
+    //get image files
+    const imageFiles = req.files;   
+
     //trim question and answer
     questions = questions.trim().toLowerCase();
     answers = answers.trim().toLowerCase();     
@@ -147,6 +136,7 @@ exports.newQuestion = async (req, res, next) => {
 
         const fileData = await readJson('./JSON/conversations.json');
 
+        
         //check if question already exists or its close to an existing question
         const questionExist = fileData.filter(question => question.questions === questions);        
     
@@ -167,11 +157,17 @@ exports.newQuestion = async (req, res, next) => {
                 
 
             }else{
+
+                //merge alternative to existing alternative
+                questionExist[0].alternative = questionExist[0].alternative.concat(alternative);
                
                 // push new answer to answers arr in existAnswer
                 questionExist[0].answers.push({
                     answer: answers,
-                    permission: permissions
+                    images: imageFiles,
+                    permission: permissions,
+                    dateLastUsed: null,
+                    numberOftimesUsed: 0
                 });
 
                 //send path id and data to update json file
@@ -185,13 +181,16 @@ exports.newQuestion = async (req, res, next) => {
 
             }          
 
-        }else{
+        }else{            
 
             console.log('new question and answer');
 
             //generate random id using the question and answer
             const id = await bcrypt.hash(`${questions}${answers}`, 10);
 
+            //if alternative is not an array
+            if(!Array.isArray(alternative))alternative = [alternative];
+            
             //create new question and answer
            const newQuestion = {
                 id: id,
@@ -199,7 +198,10 @@ exports.newQuestion = async (req, res, next) => {
                 alternative: alternative,
                 answers: [{
                     answer: answers,
-                    permission : permissions
+                    images: imageFiles,
+                    permission : permissions,
+                    dateLastUsed: null,
+                    numberOftimesUsed: 0
                 }]
             };
 

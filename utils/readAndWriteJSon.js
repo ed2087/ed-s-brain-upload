@@ -1,5 +1,6 @@
 //require fs module
 const fs = require('fs');
+//import fs from 'fs';
 
 //read a json file and return the object
 const readJson = async (path) => {
@@ -93,3 +94,4 @@ const findByIdAndUpdate = async (path, id, data) => {
 };
 
 module.exports = {readJson, writeJson, findByIdAndUpdate};
+//export {readJson, writeJson, findByIdAndUpdate};

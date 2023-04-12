@@ -4,6 +4,8 @@
 <script>
     let user = <%- JSON.stringify(user) %>;
 </script>
+
+</head>
 <body>
 
     <div id="masterConatiner">
@@ -11,6 +13,7 @@
         <!-- create a chat form -->
         <div id="chat_conatainer">
 
+                <div id="canvas_container"></div>
                 <div id="chat_Board"></div>
 
                 <div id="ChatApi">
@@ -25,8 +28,16 @@
 
     </div>
 
+    <!-- master.js -->
+    <script src="../../JS/master.js"></script>
+    
+    <!-- canvas.js -->
+    <script src="../../JS/canvas.js"></script>
 
-    <script src="../../JS/chatAPI.js"></script>
+    <script src="../../JS/APPFILES/app_responces.js"></script>
+    <script src="../../JS/APPFILES/app_textEdits.js"></script>
+    <script src="../../JS/APPFILES/chatAPI.js"></script>
+
     
 </body>
 </html>

@@ -1,24 +1,25 @@
 <%- include("./includes/head.ejs") %>
 <link rel="stylesheet" href="../../CSS/adminPage.css">
+
+</head>
 <body>
 
-    <div id="masterConatiner">
-
-        <!-- error -->
-        <span class="<%= !alert ? "alerthide" : "alert"  %>"><%= alert  %></span>
+    <div id="masterConatiner">        
 
         <div class="formWrap">
 
-            <h2> create new question</h2>            
+            <h2> create new question</h2>
+            <!-- error -->
+            <span class="<%= !alert ? "alerthide" : "alert"  %>"><%= alert  %></span>            
 
-            <form action="/newQuestion" method="POST">
+            <form action="/newQuestion" method="POST" enctype="multipart/form-data">
 
                 <!-- add only one label and input asking for name and a submit  -->
                 <div class="questions_answers_conainers" id="questionWrap">
 
                     <div class="inputWrap">
                         <label for="questions">Questions</label>
-                        <input type="text" name="questions" class="questions">
+                        <input required type="text" name="questions" class="questions">
                     </div>                   
 
                 </div>
@@ -36,7 +37,7 @@
 
                     <div class="inputWrap">
                         <label for="answers">Answers</label>
-                        <textarea name="answers" class="answers" cols="30" rows="5"></textarea>
+                        <textarea required name="answers" class="answers" cols="30" rows="5"></textarea>
                     </div>                    
 
                 </div>                
@@ -45,15 +46,33 @@
                 <!-- permissions -->
                 <div class="inputWrap">
                     <label for="permissions">Permissions</label>
-                    <select name="permissions" id="permissions">
-                        <option value="">Choose Option</option>
-                        <option value="brothers">Brothers</option>
+                    <select required name="permissions" id="permissions">
+                        <option value="">Choose Option</option>                        
+                        <option value="jennifer">jennifer</option>
+                        <option value="jazlynn">jazlynn</option>
+                        <option value="caitlynn">caitlynn</option>
+                        <option value="edgar">edgar</option>
+                        <option value="gabriel">gabriel</option>
+                        <option value="daniel">daniel</option>
+                        <option value="omar">omar</option>
+                        <option value="cynthia">cynthia</option>                        
+                        <option value="wife">Sandra</option>
                         <option value="kids">Kids</option>
-                        <option value="wife">Wife</option>
+                        <option value="brothers">Brothers</option>
                         <option value="family">Family</option>
                         <option value="all">All</option>
                     </select>
                 </div>
+
+                <div class="questions_answers_conainers" id="imgWrap">
+
+                    <div class="inputWrap">
+                        <label for="images">Images</label>
+                        <!-- upload multiple images (jpg,png) -->
+                        <input type="file" name="files" id="files" multiple>
+                    </div>                    
+
+                </div> 
 
                 <div class="inputWrap">
                     <input class="submit_button" type="submit" value="Enter">
@@ -111,9 +130,17 @@
                     <label for="permissions">Permissions</label>
                     <select name="permissions" id="permissions_">
                         <option value="">Choose Option</option>
-                        <option value="brothers">Brothers</option>
+                        <option value="jennifer">jennifer</option>
+                        <option value="jazlynn">jazlynn</option>
+                        <option value="caitlynn">caitlynn</option>
+                        <option value="edgar">edgar</option>
+                        <option value="gabriel">gabriel</option>
+                        <option value="daniel">daniel</option>
+                        <option value="omar">omar</option>
+                        <option value="cynthia">cynthia</option>                        
+                        <option value="wife">Sandra</option>
                         <option value="kids">Kids</option>
-                        <option value="wife">Wife</option>
+                        <option value="brothers">Brothers</option>
                         <option value="family">Family</option>
                         <option value="all">All</option>
                     </select>

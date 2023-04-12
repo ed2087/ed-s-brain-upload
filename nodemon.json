@@ -3,8 +3,8 @@
         "MONGO_USER" : "admin",
         "MONGO_PASSWORD" : "gHG9BX7EtZlWCrMf",
         "MONGO_DATABASE" : "hermesgo",
-        "ADMIN_PASSWORD" : "12345",
-        "ADMIN_NAME" : "Edkiller2087"
+        "ADMIN_PASSWORD" : "admin",
+        "ADMIN_NAME" : "admin"
     }
 }
 

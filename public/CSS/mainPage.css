@@ -24,12 +24,13 @@
             .formWrap input{
                 width: 100%;
                 min-width: 400px;
-                border: solid 1px #ffffff;
-                background: transparent;
+                /* border: solid 1px #ffffff; */
+                background: #000000bd;
                 color: #ffffff;
                 font-size: 1.3rem;
                 padding: 20px 10px;
                 margin-bottom: 1em;
+                border: none;
             }
             /* background on focus */
             .formWrap input:focus{

@@ -1,6 +1,11 @@
 //reuire hash
 const bcrypt = require('bcryptjs');
+
 const stringSimilarity = require('string-similarity');
+
+//SentenceSimilarity
+const similarity  = require('sentence-similarity');
+const similarityScore = require('similarity-score');
 
 //require read and write json
 const {readJson, writeJson, findByIdAndUpdate} = require('../utils/readAndWriteJSon.js');
@@ -40,6 +45,13 @@ exports.userPage = async (req, res, next) => {
     try {
 
         let {name, password} = req.body;
+
+
+        //if name admin and password is correct direct to admin page
+        if(name === process.env.ADMIN_NAME && password === process.env.ADMIN_PASSWORD){
+            res.redirect(`/admin?name=${process.env.ADMIN_NAME}&password=${process.env.ADMIN_PASSWORD}`);
+            return;
+        }
 
         //trim name and password and convert to lowercase
         name = name.trim().toLowerCase();
@@ -87,82 +99,158 @@ exports.userPage = async (req, res, next) => {
 
 
 
+//check similarity
+
+const similarity_fun = async (question, conversations, typeSearch) => {
+
+    let winkOpts = { f: similarityScore.winklerMetaphone, options : {threshold: 0} }
+
+    //wrap question in array
+    let questionArray = [question];
+
+    //find similar questions
+    if(typeSearch == "question"){
+        return conversations.find(conversation => similarity(questionArray, [conversation.questions], winkOpts).score > 0.5);
+    }else{
+        return conversations.find(conversation => conversation.alternative.find(alternative => similarity(questionArray, [alternative], winkOpts).score > 0.5));
+    }
+    
+};
+
+
 exports.fetchAPIData = async (req, res, next) => {
 
     let {question, user} = req.body;
 
-    //lowercase question and trim
-    question = question.trim().toLowerCase();
+    try { 
 
-    //if question is empty return
-    if(question === ''){
-        //send payload
-        res.json([
-            {
-                //please ask a question
-                answer: 'please ask a question'
-            }
-        ]);
+            //lowercase question and trim
+            question = question.trim().toLowerCase();
 
-        return;
-    };
+            //if question is empty return
+            if(question === ''){
+                //send payload
+                res.json([
+                    {
+                        //please ask a question
+                        answer: 'please ask a question'
+                    }
+                ]);
 
-    //read conversations
-    const conversations = await readJson(conversationModelPath);
+                return;
+            };
 
-    // check if question exists or any that are similar using stringSimilarity
-    let similarQuestion = conversations.find(conversation => stringSimilarity.compareTwoStrings(conversation.questions, question) > 0.6);   
+            //read conversations
+            const conversations = await readJson(conversationModelPath);
 
-    //check in alternative array if questions and see if question in there are similar using stringSimilarity
-    const alternativeQuestion = conversations.find(conversation => conversation.alternative.find(alternative => stringSimilarity.compareTwoStrings(alternative, question) > 0.6));
- 
-    
-    let payLoad = [];
-    //if similarQuestion exists
-    if(similarQuestion || alternativeQuestion) {
+            // //find similar questions
+            // let similarQuestion = await similarity_fun(question, conversations, "question");                 
+           
+            // //check in alternative         
+            // let alternativeQuestion = await similarity_fun(question, conversations, "alternative");          
+            
+            let similarQuestion = conversations.find(conversation => stringSimilarity.compareTwoStrings(conversation.questions, question) > 0.7);   
+            let alternativeQuestion = conversations.find(conversation => conversation.alternative.find(alternative => stringSimilarity.compareTwoStrings(alternative, question) > 0.7));
+   
+            
+            let payLoad = [];
+            let checkIfLoopStoped = 0;
 
-        similarQuestion = similarQuestion || alternativeQuestion;
+            
+            if(similarQuestion || alternativeQuestion) {
 
-        //if permission is granted build payload        
-        similarQuestion.answers.forEach(answer => {
+                similarQuestion = similarQuestion || alternativeQuestion;  
+
+                //if permission is granted build payload        
+                similarQuestion.answers.forEach(answer => {
+                        
+                        //check if user has permission to view the answer
+                        //if brother or wife or kids give access to family answers
+
+                        let familyPerm = ['brother', 'wife', 'kids', "jennifer", "caitlynn","jazlynn","edgar","cynthia","omar","daniel","gabriel"];
+
+                        let kidsPerm = ['jennifer', 'caitlynn','jazlynn', 'edgar'];
+
+                        console.log(user.permission)
+                        if(familyPerm.includes(user.permission) && answer.permission === 'family' ||
+                            answer.permission === 'all' ||
+                                 answer.permission === user.permission ||
+                                    kidsPerm.includes(user.permission) && answer.permission === 'kids') {
                 
-                //check if user has permission to view the answer
-                //if brother or wife or kids give access to family answers
+                            //build payload
+                            payLoad.push({
+                                answer: answer.answer,
+                                images: answer.images,
+                                dateLastUsed: answer.dateLastUsed,
+                                permission: answer.permission
+                            }); 
 
-                let familyPerm = ['brother', 'wife', 'kids'];
+                            //give answer date for when the answer was given dateLastUsed and save to json
+                            answer.dateLastUsed = new Date().toLocaleDateString();   
+                            
+                            //add numberOftimesUsed to answer
+                            answer.numberOftimesUsed += 1;
+                            
+                            checkIfLoopStoped += 1;
+                        }
 
-                if(familyPerm.includes(user.permission) && answer.permission === 'family' || answer.permission === 'all' || answer.permission === user.permission) {
-        
-                    //build payload
+
+                });
+
+                //if user doesn't have permission to view the answer
+                if(checkIfLoopStoped === 0) {
+                    //check for end of loop
                     payLoad.push({
-                        answer: answer.answer
-                    }); 
-        
-                }
-        
-        });
+                        answer: "You don't have permission to view this answer",
+                        images: [],
+                        dateLastUsed: new Date().toLocaleDateString(),
+                        permission: 'all'
+                    });
 
-    }else {
+                }; 
 
-        //build payload
-        payLoad.push(
+                //save to json
+                await findByIdAndUpdate(conversationModelPath, similarQuestion.id, similarQuestion);
+
+            }else {
+
+                //build payload
+                payLoad.push({                    
+                        answer: "There is no answer to that question in my head",
+                        images: [],
+                        dateLastUsed: new Date().toLocaleDateString(),
+                        permission: 'all'
+                });
+
+            };
+            
+            //send payload
+            res.json(payLoad);
+
+    } catch (error) {
+
+        console.log(error);
+        //build error payload
+        const payLoad = [
             {
-                answer: "There is no answer to that question in my head"
-            },
-            {
-                answer: "The time available in a lifetime isn't enough to answer all of your questions"
-            },
-            {
-                answer: "To that question, I have no answer"
-            },
-            {
-                answer: "I don't know"
+
+                answer: 'Something went wrong, please try again'
+
             }
-        );
+        ];
 
+        //send payload
+        res.json(payLoad);        
+            
     };
-
-    //send payload
-    res.json(payLoad);
 
 };
+
+
+
+
+
+
+//let similarQuestion = conversations.find(conversation => stringSimilarity.compareTwoStrings(conversation.questions, question) > 0.7);   
+//let alternativeQuestion = conversations.find(conversation => conversation.alternative.find(alternative => stringSimilarity.compareTwoStrings(alternative, question) > 0.7));
+        

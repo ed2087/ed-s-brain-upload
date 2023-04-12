@@ -1,0 +1,3116 @@
+[31merror[39m: [CreateMappingConfig] uncaughtException: sentenceSimilarity.compareTwoStrings is not a function 
+{
+  date: [32m'Sun Apr 09 2023 08:04:15 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m12328[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m56602624[39m,
+      heapTotal: [33m22343680[39m,
+      heapUsed: [33m20653400[39m,
+      external: [33m19581074[39m,
+      arrayBuffers: [33m18338809[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495031.125[39m },
+  trace: [
+    {
+      column: [33m81[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m123[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m41[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m123[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: sentenceSimilarity.compareTwoStrings is not a function'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:81'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:41)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: sentenceSimilarity.compareTwoStrings is not a function 
+{
+  date: [32m'Sun Apr 09 2023 08:04:15 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m12328[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m56922112[39m,
+      heapTotal: [33m22343680[39m,
+      heapUsed: [33m20898904[39m,
+      external: [33m19581138[39m,
+      arrayBuffers: [33m18338833[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495031.125[39m },
+  trace: [
+    {
+      column: [33m81[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m123[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m41[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m123[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: sentenceSimilarity.compareTwoStrings is not a function'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:81'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:41)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: sentenceSimilarity.compareTwoStrings is not a function 
+{
+  date: [32m'Sun Apr 09 2023 08:04:15 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m12328[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m57057280[39m,
+      heapTotal: [33m22343680[39m,
+      heapUsed: [33m20973552[39m,
+      external: [33m19581138[39m,
+      arrayBuffers: [33m18338833[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495031.125[39m },
+  trace: [
+    {
+      column: [33m81[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m123[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m41[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m123[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: sentenceSimilarity.compareTwoStrings is not a function'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:81'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:41)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: sentenceSimilarity.compareTwoStrings is not a function 
+{
+  date: [32m'Sun Apr 09 2023 08:04:15 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m12328[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m56832000[39m,
+      heapTotal: [33m22343680[39m,
+      heapUsed: [33m20823800[39m,
+      external: [33m19581138[39m,
+      arrayBuffers: [33m18338833[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495031.125[39m },
+  trace: [
+    {
+      column: [33m81[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m123[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m41[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m123[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: sentenceSimilarity.compareTwoStrings is not a function'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:81'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:41)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [CreateMappingConfig] uncaughtException: sentenceSimilarity.compareTwoStrings is not a function 
+{
+  date: [32m'Sun Apr 09 2023 08:04:56 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m12996[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m55918592[39m,
+      heapTotal: [33m21557248[39m,
+      heapUsed: [33m19717472[39m,
+      external: [33m19556598[39m,
+      arrayBuffers: [33m18314333[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495071.937[39m },
+  trace: [
+    {
+      column: [33m87[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m123[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m123[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: sentenceSimilarity.compareTwoStrings is not a function'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:87'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:47)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: sentenceSimilarity.compareTwoStrings is not a function 
+{
+  date: [32m'Sun Apr 09 2023 08:04:56 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m12996[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m56131584[39m,
+      heapTotal: [33m21557248[39m,
+      heapUsed: [33m19838272[39m,
+      external: [33m19556662[39m,
+      arrayBuffers: [33m18314357[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495071.937[39m },
+  trace: [
+    {
+      column: [33m87[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m123[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m123[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: sentenceSimilarity.compareTwoStrings is not a function'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:87'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:47)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: sentenceSimilarity.compareTwoStrings is not a function 
+{
+  date: [32m'Sun Apr 09 2023 08:04:56 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m12996[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m56229888[39m,
+      heapTotal: [33m21819392[39m,
+      heapUsed: [33m20168952[39m,
+      external: [33m19556662[39m,
+      arrayBuffers: [33m18314357[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495071.937[39m },
+  trace: [
+    {
+      column: [33m87[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m123[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m123[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: sentenceSimilarity.compareTwoStrings is not a function'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:87'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:47)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: sentenceSimilarity.compareTwoStrings is not a function 
+{
+  date: [32m'Sun Apr 09 2023 08:04:56 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m12996[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m56340480[39m,
+      heapTotal: [33m21819392[39m,
+      heapUsed: [33m20255176[39m,
+      external: [33m19556662[39m,
+      arrayBuffers: [33m18314357[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495071.937[39m },
+  trace: [
+    {
+      column: [33m87[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m123[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m47[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m123[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: sentenceSimilarity.compareTwoStrings is not a function'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:87'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:123:47)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [CreateMappingConfig] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- C:\Users\edgar\OneDrive\Desktop\my projrct\controllers\userControllers.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\routes\userRoutes.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\app.js 
+{
+  date: [32m'Sun Apr 09 2023 08:08:10 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m14524[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m71118848[39m,
+      heapTotal: [33m36499456[39m,
+      heapUsed: [33m21668112[39m,
+      external: [33m19871967[39m,
+      arrayBuffers: [33m18646650[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495266.015[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m1060[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m905[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'node:internal/modules/helpers'[39m,
+      function: [32m'require'[39m,
+      line: [33m112[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m23[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m8[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m1103[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m942[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m,
+    [32m'    at Module._resolveFilename (node:internal/modules/cjs/loader:1060:15)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:905:27)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m,
+    [32m'    at require (node:internal/modules/helpers:112:18)'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:8:23)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:1103:32)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:942:12)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- C:\Users\edgar\OneDrive\Desktop\my projrct\controllers\userControllers.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\routes\userRoutes.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\app.js 
+{
+  date: [32m'Sun Apr 09 2023 08:08:10 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m14524[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m71356416[39m,
+      heapTotal: [33m36499456[39m,
+      heapUsed: [33m21833328[39m,
+      external: [33m19872031[39m,
+      arrayBuffers: [33m18646674[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495266.015[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m1060[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m905[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'node:internal/modules/helpers'[39m,
+      function: [32m'require'[39m,
+      line: [33m112[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m23[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m8[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m1103[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m942[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m,
+    [32m'    at Module._resolveFilename (node:internal/modules/cjs/loader:1060:15)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:905:27)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m,
+    [32m'    at require (node:internal/modules/helpers:112:18)'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:8:23)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:1103:32)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:942:12)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- C:\Users\edgar\OneDrive\Desktop\my projrct\controllers\userControllers.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\routes\userRoutes.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\app.js 
+{
+  date: [32m'Sun Apr 09 2023 08:08:10 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m14524[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m71434240[39m,
+      heapTotal: [33m36499456[39m,
+      heapUsed: [33m21968688[39m,
+      external: [33m19872031[39m,
+      arrayBuffers: [33m18646674[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495266.015[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m1060[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m905[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'node:internal/modules/helpers'[39m,
+      function: [32m'require'[39m,
+      line: [33m112[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m23[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m8[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m1103[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m942[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m,
+    [32m'    at Module._resolveFilename (node:internal/modules/cjs/loader:1060:15)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:905:27)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m,
+    [32m'    at require (node:internal/modules/helpers:112:18)'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:8:23)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:1103:32)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:942:12)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- C:\Users\edgar\OneDrive\Desktop\my projrct\controllers\userControllers.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\routes\userRoutes.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\app.js 
+{
+  date: [32m'Sun Apr 09 2023 08:08:10 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m14524[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m71454720[39m,
+      heapTotal: [33m36499456[39m,
+      heapUsed: [33m22103912[39m,
+      external: [33m19872031[39m,
+      arrayBuffers: [33m18646674[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495266.015[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m1060[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m905[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'node:internal/modules/helpers'[39m,
+      function: [32m'require'[39m,
+      line: [33m112[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m23[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m8[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m1103[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m942[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m,
+    [32m'    at Module._resolveFilename (node:internal/modules/cjs/loader:1060:15)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:905:27)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m,
+    [32m'    at require (node:internal/modules/helpers:112:18)'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:8:23)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:1103:32)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:942:12)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m
+  ]
+}
+[31merror[39m: [CreateMappingConfig] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- C:\Users\edgar\OneDrive\Desktop\my projrct\controllers\userControllers.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\routes\userRoutes.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\app.js 
+{
+  date: [32m'Sun Apr 09 2023 08:08:13 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m22452[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m70713344[39m,
+      heapTotal: [33m35975168[39m,
+      heapUsed: [33m24235128[39m,
+      external: [33m20144586[39m,
+      arrayBuffers: [33m18919269[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495269.062[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m1060[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m905[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'node:internal/modules/helpers'[39m,
+      function: [32m'require'[39m,
+      line: [33m112[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m8[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m1103[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m942[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m,
+    [32m'    at Module._resolveFilename (node:internal/modules/cjs/loader:1060:15)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:905:27)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m,
+    [32m'    at require (node:internal/modules/helpers:112:18)'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:8:25)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:1103:32)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:942:12)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- C:\Users\edgar\OneDrive\Desktop\my projrct\controllers\userControllers.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\routes\userRoutes.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\app.js 
+{
+  date: [32m'Sun Apr 09 2023 08:08:13 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m22452[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m70934528[39m,
+      heapTotal: [33m35975168[39m,
+      heapUsed: [33m24400400[39m,
+      external: [33m20144650[39m,
+      arrayBuffers: [33m18919293[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495269.062[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m1060[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m905[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'node:internal/modules/helpers'[39m,
+      function: [32m'require'[39m,
+      line: [33m112[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m8[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m1103[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m942[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m,
+    [32m'    at Module._resolveFilename (node:internal/modules/cjs/loader:1060:15)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:905:27)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m,
+    [32m'    at require (node:internal/modules/helpers:112:18)'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:8:25)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:1103:32)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:942:12)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- C:\Users\edgar\OneDrive\Desktop\my projrct\controllers\userControllers.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\routes\userRoutes.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\app.js 
+{
+  date: [32m'Sun Apr 09 2023 08:08:13 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m22452[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m71004160[39m,
+      heapTotal: [33m35975168[39m,
+      heapUsed: [33m24535872[39m,
+      external: [33m20144650[39m,
+      arrayBuffers: [33m18919293[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495269.062[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m1060[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m905[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'node:internal/modules/helpers'[39m,
+      function: [32m'require'[39m,
+      line: [33m112[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m8[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m1103[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m942[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m,
+    [32m'    at Module._resolveFilename (node:internal/modules/cjs/loader:1060:15)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:905:27)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m,
+    [32m'    at require (node:internal/modules/helpers:112:18)'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:8:25)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:1103:32)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:942:12)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: Cannot find module 'similarity-score'
+Require stack:
+- C:\Users\edgar\OneDrive\Desktop\my projrct\controllers\userControllers.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\routes\userRoutes.js
+- C:\Users\edgar\OneDrive\Desktop\my projrct\app.js 
+{
+  date: [32m'Sun Apr 09 2023 08:08:13 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m22452[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m71036928[39m,
+      heapTotal: [33m35975168[39m,
+      heapUsed: [33m24671112[39m,
+      external: [33m20144650[39m,
+      arrayBuffers: [33m18919293[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m495269.078[39m },
+  trace: [
+    {
+      column: [33m15[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._resolveFilename'[39m,
+      line: [33m1060[39m,
+      method: [32m'_resolveFilename'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m27[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m905[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'node:internal/modules/helpers'[39m,
+      function: [32m'require'[39m,
+      line: [33m112[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m8[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m1103[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m942[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m"Error: Cannot find module 'similarity-score'"[39m,
+    [32m'Require stack:'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js'[39m,
+    [32m'- C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m,
+    [32m'    at Module._resolveFilename (node:internal/modules/cjs/loader:1060:15)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:905:27)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m,
+    [32m'    at require (node:internal/modules/helpers:112:18)'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:8:25)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:1103:32)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:942:12)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m
+  ]
+}
+[31merror[39m: [CreateMappingConfig] uncaughtException: co is not defined 
+{
+  date: [32m'Sun Apr 09 2023 09:04:39 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m16796[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m77451264[39m,
+      heapTotal: [33m41099264[39m,
+      heapUsed: [33m31885760[39m,
+      external: [33m20479507[39m,
+      arrayBuffers: [33m19254190[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m498655.484[39m },
+  trace: [
+    {
+      column: [33m1[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m104[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m1103[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m942[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'node:internal/modules/helpers'[39m,
+      function: [32m'require'[39m,
+      line: [33m112[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m24[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js'[39m,
+      function: [1mnull[22m,
+      line: [33m6[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: co is not defined'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:104:1)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:1103:32)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:942:12)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m,
+    [32m'    at require (node:internal/modules/helpers:112:18)'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js:6:24)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: co is not defined 
+{
+  date: [32m'Sun Apr 09 2023 09:04:39 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m16796[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m77717504[39m,
+      heapTotal: [33m41099264[39m,
+      heapUsed: [33m31968736[39m,
+      external: [33m20479571[39m,
+      arrayBuffers: [33m19254214[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m498655.5[39m },
+  trace: [
+    {
+      column: [33m1[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m104[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m1103[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m942[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'node:internal/modules/helpers'[39m,
+      function: [32m'require'[39m,
+      line: [33m112[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m24[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js'[39m,
+      function: [1mnull[22m,
+      line: [33m6[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: co is not defined'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:104:1)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:1103:32)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:942:12)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m,
+    [32m'    at require (node:internal/modules/helpers:112:18)'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js:6:24)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: co is not defined 
+{
+  date: [32m'Sun Apr 09 2023 09:04:39 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m16796[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78417920[39m,
+      heapTotal: [33m59203584[39m,
+      heapUsed: [33m25710408[39m,
+      external: [33m20479571[39m,
+      arrayBuffers: [33m18343515[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m498655.5[39m },
+  trace: [
+    {
+      column: [33m1[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m104[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m1103[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m942[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'node:internal/modules/helpers'[39m,
+      function: [32m'require'[39m,
+      line: [33m112[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m24[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js'[39m,
+      function: [1mnull[22m,
+      line: [33m6[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: co is not defined'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:104:1)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:1103:32)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:942:12)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m,
+    [32m'    at require (node:internal/modules/helpers:112:18)'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js:6:24)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: co is not defined 
+{
+  date: [32m'Sun Apr 09 2023 09:04:39 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m16796[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78467072[39m,
+      heapTotal: [33m59203584[39m,
+      heapUsed: [33m25840576[39m,
+      external: [33m20479571[39m,
+      arrayBuffers: [33m18343515[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m498655.5[39m },
+  trace: [
+    {
+      column: [33m1[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m104[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m32[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.load'[39m,
+      line: [33m1103[39m,
+      method: [32m'load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m12[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._load'[39m,
+      line: [33m942[39m,
+      method: [32m'_load'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m19[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module.require'[39m,
+      line: [33m1127[39m,
+      method: [32m'require'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m18[39m,
+      file: [32m'node:internal/modules/helpers'[39m,
+      function: [32m'require'[39m,
+      line: [33m112[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m24[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js'[39m,
+      function: [1mnull[22m,
+      line: [33m6[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._compile'[39m,
+      line: [33m1246[39m,
+      method: [32m'_compile'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m10[39m,
+      file: [32m'node:internal/modules/cjs/loader'[39m,
+      function: [32m'Module._extensions..js'[39m,
+      line: [33m1300[39m,
+      method: [32m'.js'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'ReferenceError: co is not defined'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:104:1)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m,
+    [32m'    at Module.load (node:internal/modules/cjs/loader:1103:32)'[39m,
+    [32m'    at Module._load (node:internal/modules/cjs/loader:942:12)'[39m,
+    [32m'    at Module.require (node:internal/modules/cjs/loader:1127:19)'[39m,
+    [32m'    at require (node:internal/modules/helpers:112:18)'[39m,
+    [32m'    at Object.<anonymous> (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\routes\\userRoutes.js:6:24)'[39m,
+    [32m'    at Module._compile (node:internal/modules/cjs/loader:1246:14)'[39m,
+    [32m'    at Module._extensions..js (node:internal/modules/cjs/loader:1300:10)'[39m
+  ]
+}
+[31merror[39m: [CreateMappingConfig] uncaughtException: a[i].replace is not a function 
+{
+  date: [32m'Sun Apr 09 2023 09:10:55 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m8920[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78188544[39m,
+      heapTotal: [33m60252160[39m,
+      heapUsed: [33m24214880[39m,
+      external: [33m19651557[39m,
+      arrayBuffers: [33m18409292[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m499031.109[39m },
+  trace: [
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js'[39m,
+      function: [32m'Object.cleanArray'[39m,
+      line: [33m65[39m,
+      method: [32m'cleanArray'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js'[39m,
+      function: [32m'similarity'[39m,
+      line: [33m217[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m51[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'similarity_fun'[39m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m35[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m147[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: a[i].replace is not a function'[39m,
+    [32m'    at Object.cleanArray (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js:65:25)'[39m,
+    [32m'    at similarity (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js:217:14)'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:51'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at similarity_fun (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:30)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:147:35)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: a[i].replace is not a function 
+{
+  date: [32m'Sun Apr 09 2023 09:10:55 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m8920[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78303232[39m,
+      heapTotal: [33m60252160[39m,
+      heapUsed: [33m24409976[39m,
+      external: [33m19651621[39m,
+      arrayBuffers: [33m18409316[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m499031.109[39m },
+  trace: [
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js'[39m,
+      function: [32m'Object.cleanArray'[39m,
+      line: [33m65[39m,
+      method: [32m'cleanArray'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js'[39m,
+      function: [32m'similarity'[39m,
+      line: [33m217[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m51[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'similarity_fun'[39m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m35[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m147[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: a[i].replace is not a function'[39m,
+    [32m'    at Object.cleanArray (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js:65:25)'[39m,
+    [32m'    at similarity (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js:217:14)'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:51'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at similarity_fun (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:30)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:147:35)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: a[i].replace is not a function 
+{
+  date: [32m'Sun Apr 09 2023 09:10:55 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m8920[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78315520[39m,
+      heapTotal: [33m60252160[39m,
+      heapUsed: [33m24535864[39m,
+      external: [33m19651621[39m,
+      arrayBuffers: [33m18409316[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m499031.109[39m },
+  trace: [
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js'[39m,
+      function: [32m'Object.cleanArray'[39m,
+      line: [33m65[39m,
+      method: [32m'cleanArray'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js'[39m,
+      function: [32m'similarity'[39m,
+      line: [33m217[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m51[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'similarity_fun'[39m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m35[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m147[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: a[i].replace is not a function'[39m,
+    [32m'    at Object.cleanArray (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js:65:25)'[39m,
+    [32m'    at similarity (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js:217:14)'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:51'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at similarity_fun (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:30)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:147:35)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: a[i].replace is not a function 
+{
+  date: [32m'Sun Apr 09 2023 09:10:55 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m8920[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78344192[39m,
+      heapTotal: [33m60252160[39m,
+      heapUsed: [33m24662056[39m,
+      external: [33m19651621[39m,
+      arrayBuffers: [33m18409316[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m499031.109[39m },
+  trace: [
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js'[39m,
+      function: [32m'Object.cleanArray'[39m,
+      line: [33m65[39m,
+      method: [32m'cleanArray'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js'[39m,
+      function: [32m'similarity'[39m,
+      line: [33m217[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m51[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'similarity_fun'[39m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m35[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m147[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: a[i].replace is not a function'[39m,
+    [32m'    at Object.cleanArray (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js:65:25)'[39m,
+    [32m'    at similarity (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js:217:14)'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:51'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at similarity_fun (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:30)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:147:35)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [CreateMappingConfig] uncaughtException: a[i].replace is not a function 
+{
+  date: [32m'Sun Apr 09 2023 09:10:55 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m8920[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78462976[39m,
+      heapTotal: [33m60252160[39m,
+      heapUsed: [33m24785888[39m,
+      external: [33m19651621[39m,
+      arrayBuffers: [33m18409316[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m499031.109[39m },
+  trace: [
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js'[39m,
+      function: [32m'Object.cleanArray'[39m,
+      line: [33m65[39m,
+      method: [32m'cleanArray'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js'[39m,
+      function: [32m'similarity'[39m,
+      line: [33m217[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m51[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'similarity_fun'[39m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m39[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m150[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: a[i].replace is not a function'[39m,
+    [32m'    at Object.cleanArray (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js:65:25)'[39m,
+    [32m'    at similarity (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js:217:14)'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:51'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at similarity_fun (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:30)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:150:39)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: a[i].replace is not a function 
+{
+  date: [32m'Sun Apr 09 2023 09:10:55 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m8920[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78585856[39m,
+      heapTotal: [33m60252160[39m,
+      heapUsed: [33m24907232[39m,
+      external: [33m19651621[39m,
+      arrayBuffers: [33m18409316[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m499031.109[39m },
+  trace: [
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js'[39m,
+      function: [32m'Object.cleanArray'[39m,
+      line: [33m65[39m,
+      method: [32m'cleanArray'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js'[39m,
+      function: [32m'similarity'[39m,
+      line: [33m217[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m51[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'similarity_fun'[39m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m39[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m150[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: a[i].replace is not a function'[39m,
+    [32m'    at Object.cleanArray (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js:65:25)'[39m,
+    [32m'    at similarity (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js:217:14)'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:51'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at similarity_fun (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:30)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:150:39)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: a[i].replace is not a function 
+{
+  date: [32m'Sun Apr 09 2023 09:10:55 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m8920[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78594048[39m,
+      heapTotal: [33m60252160[39m,
+      heapUsed: [33m25023952[39m,
+      external: [33m19651621[39m,
+      arrayBuffers: [33m18409316[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m499031.109[39m },
+  trace: [
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js'[39m,
+      function: [32m'Object.cleanArray'[39m,
+      line: [33m65[39m,
+      method: [32m'cleanArray'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js'[39m,
+      function: [32m'similarity'[39m,
+      line: [33m217[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m51[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'similarity_fun'[39m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m39[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m150[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: a[i].replace is not a function'[39m,
+    [32m'    at Object.cleanArray (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js:65:25)'[39m,
+    [32m'    at similarity (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js:217:14)'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:51'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at similarity_fun (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:30)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:150:39)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: a[i].replace is not a function 
+{
+  date: [32m'Sun Apr 09 2023 09:10:55 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m8920[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78594048[39m,
+      heapTotal: [33m60252160[39m,
+      heapUsed: [33m25140776[39m,
+      external: [33m19651621[39m,
+      arrayBuffers: [33m18409316[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m499031.109[39m },
+  trace: [
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js'[39m,
+      function: [32m'Object.cleanArray'[39m,
+      line: [33m65[39m,
+      method: [32m'cleanArray'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js'[39m,
+      function: [32m'similarity'[39m,
+      line: [33m217[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m51[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'similarity_fun'[39m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m39[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m150[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: a[i].replace is not a function'[39m,
+    [32m'    at Object.cleanArray (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js:65:25)'[39m,
+    [32m'    at similarity (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js:217:14)'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:51'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at similarity_fun (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:30)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:150:39)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [CreateMappingConfig] uncaughtException: a[i].replace is not a function 
+{
+  date: [32m'Sun Apr 09 2023 09:11:14 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m15836[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78082048[39m,
+      heapTotal: [33m41377792[39m,
+      heapUsed: [33m30198512[39m,
+      external: [33m20001016[39m,
+      arrayBuffers: [33m18756620[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m499049.984[39m },
+  trace: [
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js'[39m,
+      function: [32m'Object.cleanArray'[39m,
+      line: [33m65[39m,
+      method: [32m'cleanArray'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js'[39m,
+      function: [32m'similarity'[39m,
+      line: [33m217[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m51[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'similarity_fun'[39m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m39[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m150[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: a[i].replace is not a function'[39m,
+    [32m'    at Object.cleanArray (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js:65:25)'[39m,
+    [32m'    at similarity (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js:217:14)'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:51'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at similarity_fun (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:30)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:150:39)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [Helper] uncaughtException: a[i].replace is not a function 
+{
+  date: [32m'Sun Apr 09 2023 09:11:14 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m15836[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78245888[39m,
+      heapTotal: [33m41639936[39m,
+      heapUsed: [33m30593312[39m,
+      external: [33m20001080[39m,
+      arrayBuffers: [33m18756644[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m499049.984[39m },
+  trace: [
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js'[39m,
+      function: [32m'Object.cleanArray'[39m,
+      line: [33m65[39m,
+      method: [32m'cleanArray'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js'[39m,
+      function: [32m'similarity'[39m,
+      line: [33m217[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m51[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'similarity_fun'[39m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m39[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m150[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: a[i].replace is not a function'[39m,
+    [32m'    at Object.cleanArray (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js:65:25)'[39m,
+    [32m'    at similarity (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js:217:14)'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:51'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at similarity_fun (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:30)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:150:39)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [SbEvent] uncaughtException: a[i].replace is not a function 
+{
+  date: [32m'Sun Apr 09 2023 09:11:14 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m15836[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78295040[39m,
+      heapTotal: [33m41902080[39m,
+      heapUsed: [33m30745560[39m,
+      external: [33m20001080[39m,
+      arrayBuffers: [33m18756644[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m499049.984[39m },
+  trace: [
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js'[39m,
+      function: [32m'Object.cleanArray'[39m,
+      line: [33m65[39m,
+      method: [32m'cleanArray'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js'[39m,
+      function: [32m'similarity'[39m,
+      line: [33m217[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m51[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'similarity_fun'[39m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m39[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m150[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: a[i].replace is not a function'[39m,
+    [32m'    at Object.cleanArray (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js:65:25)'[39m,
+    [32m'    at similarity (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js:217:14)'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:51'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at similarity_fun (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:30)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:150:39)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
+[31merror[39m: [ExitHandler] uncaughtException: a[i].replace is not a function 
+{
+  date: [32m'Sun Apr 09 2023 09:11:14 GMT-0400 (Eastern Daylight Time)'[39m,
+  process: {
+    pid: [33m15836[39m,
+    uid: [1mnull[22m,
+    gid: [1mnull[22m,
+    cwd: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct'[39m,
+    execPath: [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+    version: [32m'v19.6.0'[39m,
+    argv: [
+      [32m'C:\\Program Files\\nodejs\\node.exe'[39m,
+      [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\app.js'[39m
+    ],
+    memoryUsage: {
+      rss: [33m78307328[39m,
+      heapTotal: [33m41902080[39m,
+      heapUsed: [33m30865152[39m,
+      external: [33m20001080[39m,
+      arrayBuffers: [33m18756644[39m
+    }
+  },
+  os: { loadavg: [ [33m0[39m, [33m0[39m, [33m0[39m ], uptime: [33m499049.984[39m },
+  trace: [
+    {
+      column: [33m25[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js'[39m,
+      function: [32m'Object.cleanArray'[39m,
+      line: [33m65[39m,
+      method: [32m'cleanArray'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m14[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js'[39m,
+      function: [32m'similarity'[39m,
+      line: [33m217[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m51[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [1mnull[22m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [1mnull[22m,
+      file: [1mnull[22m,
+      function: [32m'Array.find'[39m,
+      line: [1mnull[22m,
+      method: [32m'find'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m30[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'similarity_fun'[39m,
+      line: [33m115[39m,
+      method: [1mnull[22m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m39[39m,
+      file: [32m'C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js'[39m,
+      function: [32m'exports.fetchAPIData'[39m,
+      line: [33m150[39m,
+      method: [32m'fetchAPIData'[39m,
+      native: [33mfalse[39m
+    },
+    {
+      column: [33m5[39m,
+      file: [32m'node:internal/process/task_queues'[39m,
+      function: [32m'process.processTicksAndRejections'[39m,
+      line: [33m95[39m,
+      method: [32m'processTicksAndRejections'[39m,
+      native: [33mfalse[39m
+    }
+  ],
+  stack: [
+    [32m'TypeError: a[i].replace is not a function'[39m,
+    [32m'    at Object.cleanArray (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\helper-clockmaker\\Helper.js:65:25)'[39m,
+    [32m'    at similarity (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\node_modules\\sentence-similarity\\SentenceSimilarity.js:217:14)'[39m,
+    [32m'    at C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:51'[39m,
+    [32m'    at Array.find (<anonymous>)'[39m,
+    [32m'    at similarity_fun (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:115:30)'[39m,
+    [32m'    at exports.fetchAPIData (C:\\Users\\edgar\\OneDrive\\Desktop\\my projrct\\controllers\\userControllers.js:150:39)'[39m,
+    [32m'    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'[39m
+  ]
+}
